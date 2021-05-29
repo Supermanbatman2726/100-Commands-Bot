@@ -49,7 +49,7 @@ module.exports = {
                         .setTimestamp()
                         .setFooter(message.client.user.username, message.client.user.displayAvatarURL())
                         .setThumbnail(message.client.user.avatarURL())
-                        .setDescription(`https://dsc.gg/gcafe`)
+                        .setDescription(``)
                     sMessage.edit(editEmbed)
                 }
             })
